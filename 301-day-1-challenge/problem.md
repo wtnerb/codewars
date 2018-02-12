@@ -1,2 +1,4 @@
 # 301 day 1 required kata
-fix the broken function. Need to escape the behavior of '.' in a regular expression and make the regex global.
+Fix the broken function. It is supposed to replace all '.' characters with '-' characters but does not work.
+
+The regular expression has two syntax errors. I don't know how you can whiteboard fixing syntax errors.
