@@ -3,7 +3,7 @@ function fixTheMeerkat(arr) {
     return arr.reverse();
 }
 
-//second solution.This one is more intersting, though it only work with an array that contains no 'falsy' values.
+//second solution. This one is more intersting, though it only work with an array whose first value is not 'falsy'.
 function fixTheMeerkat(arr) {
     let out = [];
     while (arr[0]) out.push(arr.pop());
