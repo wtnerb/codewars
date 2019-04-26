@@ -1,5 +1,7 @@
+import re
 
 def duplicate_count(s):
+    s = re.sub("\W", '', s.lower())
     seen = {}
     count = 0
     for c in s:
